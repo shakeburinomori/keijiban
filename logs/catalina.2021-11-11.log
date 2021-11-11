@@ -1,0 +1,224 @@
+11-Nov-2021 10:23:12.974 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/9.0.30
+11-Nov-2021 10:23:12.978 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          Dec 7 2019 16:42:04 UTC
+11-Nov-2021 10:23:12.981 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：9.0.30.0
+11-Nov-2021 10:23:12.981 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Windows 10
+11-Nov-2021 10:23:12.981 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+11-Nov-2021 10:23:12.982 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+11-Nov-2021 10:23:12.982 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+11-Nov-2021 10:23:12.982 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           17+35-LTS-2724
+11-Nov-2021 10:23:12.982 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Oracle Corporation
+11-Nov-2021 10:23:12.982 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:23:12.982 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:23:12.988 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2021 10:23:12.989 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2021 10:23:12.989 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2021 10:23:12.989 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=C:\Users\comna\Desktop\goudouken\keijiban\conf\logging.properties
+11-Nov-2021 10:23:12.990 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2021 10:23:12.990 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2021 10:23:12.990 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2021 10:23:12.991 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+11-Nov-2021 10:23:12.991 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:23:12.992 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:23:12.992 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=C:\Users\comna\Desktop\goudouken\keijiban\temp
+11-Nov-2021 10:23:12.992 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\platform-tools_r31.0.3-windows\platform-tools;C:\Users\comna\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.0\;C:\Users\comna\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\comna\AppData\Local\Programs\Python\Python39\;"C:\Users\comna\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin";C:\Users\comna\AppData\Local\atom\bin;C:\Users\comna\.dotnet\tools;C:\Users\comna\AppData\Roaming\npm;C:\Users\comna\AppData\Local\Programs\Microsoft VS Code\bin;C:\comsan_created\.ui;C:\Program Files\2019.4.21f1\Editor;C:\pleiades\xampp\mysql\bin;C:\Program Files\heroku\bin;.] に存在しません。
+11-Nov-2021 10:23:13.141 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+11-Nov-2021 10:23:13.222 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["ajp-nio-8009"] を初期化します。
+11-Nov-2021 10:23:13.227 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [394]ms
+11-Nov-2021 10:23:13.267 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+11-Nov-2021 10:23:13.268 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/9.0.30]
+11-Nov-2021 10:23:13.276 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\docs] を配備します
+11-Nov-2021 10:23:13.490 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\docs] の Web アプリケーションの配置は [214] ms で完了しました。
+11-Nov-2021 10:23:13.491 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\examples] を配備します
+11-Nov-2021 10:23:13.803 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\examples] の Web アプリケーションの配置は [312] ms で完了しました。
+11-Nov-2021 10:23:13.804 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\host-manager] を配備します
+11-Nov-2021 10:23:13.833 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\host-manager] の Web アプリケーションの配置は [29] ms で完了しました。
+11-Nov-2021 10:23:13.833 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\manager] を配備します
+11-Nov-2021 10:23:13.858 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\manager] の Web アプリケーションの配置は [25] ms で完了しました。
+11-Nov-2021 10:23:13.859 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\ROOT] を配備します
+11-Nov-2021 10:23:13.877 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\ROOT] の Web アプリケーションの配置は [18] ms で完了しました。
+11-Nov-2021 10:23:13.877 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\rs_page] を配備します
+11-Nov-2021 10:23:13.907 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\rs_page] の Web アプリケーションの配置は [29] ms で完了しました。
+11-Nov-2021 10:23:13.909 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+11-Nov-2021 10:23:13.916 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["ajp-nio-8009"] を開始しました。
+11-Nov-2021 10:23:13.919 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [691]ms
+11-Nov-2021 10:23:50.152 情報 [Thread-4] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+11-Nov-2021 10:23:50.165 情報 [Thread-4] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["ajp-nio-8009"] を一時停止します。
+11-Nov-2021 10:23:50.175 情報 [Thread-4] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+11-Nov-2021 10:23:50.189 情報 [Thread-4] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+11-Nov-2021 10:23:50.190 情報 [Thread-4] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["ajp-nio-8009"]の停止中
+11-Nov-2021 10:23:50.192 情報 [Thread-4] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+11-Nov-2021 10:23:50.194 情報 [Thread-4] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["ajp-nio-8009"] を破棄します。
+11-Nov-2021 10:25:06.938 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/9.0.30
+11-Nov-2021 10:25:06.941 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          Dec 7 2019 16:42:04 UTC
+11-Nov-2021 10:25:06.942 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：9.0.30.0
+11-Nov-2021 10:25:06.942 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Windows 10
+11-Nov-2021 10:25:06.942 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+11-Nov-2021 10:25:06.942 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+11-Nov-2021 10:25:06.942 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+11-Nov-2021 10:25:06.943 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           17+35-LTS-2724
+11-Nov-2021 10:25:06.943 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Oracle Corporation
+11-Nov-2021 10:25:06.943 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:25:06.943 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:25:06.951 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2021 10:25:06.951 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2021 10:25:06.951 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2021 10:25:06.952 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=C:\Users\comna\Desktop\goudouken\keijiban\conf\logging.properties
+11-Nov-2021 10:25:06.952 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2021 10:25:06.953 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2021 10:25:06.953 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2021 10:25:06.953 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+11-Nov-2021 10:25:06.954 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:25:06.954 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:25:06.954 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=C:\Users\comna\Desktop\goudouken\keijiban\temp
+11-Nov-2021 10:25:06.964 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\platform-tools_r31.0.3-windows\platform-tools;C:\Users\comna\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.0\;C:\Users\comna\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\comna\AppData\Local\Programs\Python\Python39\;"C:\Users\comna\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin";C:\Users\comna\AppData\Local\atom\bin;C:\Users\comna\.dotnet\tools;C:\Users\comna\AppData\Roaming\npm;C:\Users\comna\AppData\Local\Programs\Microsoft VS Code\bin;C:\comsan_created\.ui;C:\Program Files\2019.4.21f1\Editor;C:\pleiades\xampp\mysql\bin;C:\Program Files\heroku\bin;.] に存在しません。
+11-Nov-2021 10:25:07.105 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+11-Nov-2021 10:25:07.181 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["ajp-nio-8009"] を初期化します。
+11-Nov-2021 10:25:07.185 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [396]ms
+11-Nov-2021 10:25:07.221 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+11-Nov-2021 10:25:07.222 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/9.0.30]
+11-Nov-2021 10:25:07.229 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\docs] を配備します
+11-Nov-2021 10:25:07.443 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\docs] の Web アプリケーションの配置は [214] ms で完了しました。
+11-Nov-2021 10:25:07.443 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\examples] を配備します
+11-Nov-2021 10:25:07.777 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\examples] の Web アプリケーションの配置は [334] ms で完了しました。
+11-Nov-2021 10:25:07.779 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\host-manager] を配備します
+11-Nov-2021 10:25:07.810 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\host-manager] の Web アプリケーションの配置は [30] ms で完了しました。
+11-Nov-2021 10:25:07.810 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\manager] を配備します
+11-Nov-2021 10:25:07.835 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\manager] の Web アプリケーションの配置は [25] ms で完了しました。
+11-Nov-2021 10:25:07.835 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\ROOT] を配備します
+11-Nov-2021 10:25:07.855 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\ROOT] の Web アプリケーションの配置は [20] ms で完了しました。
+11-Nov-2021 10:25:07.856 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\rs_page] を配備します
+11-Nov-2021 10:25:07.888 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\rs_page] の Web アプリケーションの配置は [33] ms で完了しました。
+11-Nov-2021 10:25:07.891 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+11-Nov-2021 10:25:07.898 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["ajp-nio-8009"] を開始しました。
+11-Nov-2021 10:25:07.900 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [714]ms
+11-Nov-2021 10:27:07.993 情報 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload リロード中のコンテキスト [/rs_page]
+11-Nov-2021 10:27:07.993 情報 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+11-Nov-2021 10:27:08.013 重大 [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.fatalError 行[1]の列[1]で致命的なエラーを解析します。
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/comna/Desktop/goudouken/keijiban/webapps/rs_page/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; 途中でファイルの末尾に達しました。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1116)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5051)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3758)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+11-Nov-2021 10:27:08.017 重大 [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/C:/Users/comna/Desktop/goudouken/keijiban/webapps/rs_page/WEB-INF/web.xml]のアプリケーションweb.xmlファイルの解析エラー
+	org.xml.sax.SAXParseException; systemId: file:/C:/Users/comna/Desktop/goudouken/keijiban/webapps/rs_page/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; 途中でファイルの末尾に達しました。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1116)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5051)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3758)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+11-Nov-2021 10:27:08.019 重大 [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 行[1]列[1]で発生しました。
+11-Nov-2021 10:27:08.021 重大 [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart 前のエラーのためにこのアプリケーションは利用できないようにマークします
+11-Nov-2021 10:27:08.021 重大 [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal コンテキストが正しく設定されていないとマークされた1つ以上のコンポーネント
+11-Nov-2021 10:27:08.022 重大 [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal 以前のエラーのためにコンテキストの起動が失敗しました [/rs_page]
+11-Nov-2021 10:27:08.023 情報 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+11-Nov-2021 10:27:18.039 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload リロード中のコンテキスト [/rs_page]
+11-Nov-2021 10:27:28.077 情報 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload リロード中のコンテキスト [/rs_page]
+11-Nov-2021 10:27:28.077 情報 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードを開始しました
+11-Nov-2021 10:27:28.095 重大 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 名前[/rs_page]のコンテキストを開始する際の例外
+	org.apache.catalina.LifecycleException: コンポーネント[StandardEngine[Catalina].StandardHost[localhost].StandardContext[/rs_page]]の開始に失敗しました。
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3758)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: サーブレットマッピングは未知のサーブレット名 [hello] を指定しています
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3174)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:881)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1391)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1168)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5051)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+11-Nov-2021 10:27:28.096 情報 [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload このコンテキストの再ロードが完了しました
+11-Nov-2021 10:27:38.115 情報 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload リロード中のコンテキスト [/rs_page]
+11-Nov-2021 10:27:55.283 情報 [Thread-4] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8080"] を一時停止します。
+11-Nov-2021 10:27:55.295 情報 [Thread-4] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["ajp-nio-8009"] を一時停止します。
+11-Nov-2021 10:27:55.307 情報 [Thread-4] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+11-Nov-2021 10:27:55.317 情報 [Thread-4] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8080"]の停止中
+11-Nov-2021 10:27:55.318 情報 [Thread-4] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["ajp-nio-8009"]の停止中
+11-Nov-2021 10:27:55.319 情報 [Thread-4] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
+11-Nov-2021 10:27:55.319 情報 [Thread-4] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["ajp-nio-8009"] を破棄します。
