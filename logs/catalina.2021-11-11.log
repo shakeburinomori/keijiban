@@ -222,3 +222,46 @@
 11-Nov-2021 10:27:55.318 情報 [Thread-4] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["ajp-nio-8009"]の停止中
 11-Nov-2021 10:27:55.319 情報 [Thread-4] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8080"] を破棄します。
 11-Nov-2021 10:27:55.319 情報 [Thread-4] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["ajp-nio-8009"] を破棄します。
+11-Nov-2021 10:28:03.489 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/9.0.30
+11-Nov-2021 10:28:03.492 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          Dec 7 2019 16:42:04 UTC
+11-Nov-2021 10:28:03.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：9.0.30.0
+11-Nov-2021 10:28:03.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Windows 10
+11-Nov-2021 10:28:03.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            10.0
+11-Nov-2021 10:28:03.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+11-Nov-2021 10:28:03.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+11-Nov-2021 10:28:03.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           17+35-LTS-2724
+11-Nov-2021 10:28:03.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Oracle Corporation
+11-Nov-2021 10:28:03.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:28:03.495 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:28:03.503 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+11-Nov-2021 10:28:03.503 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+11-Nov-2021 10:28:03.504 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Nov-2021 10:28:03.512 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=C:\Users\comna\Desktop\goudouken\keijiban\conf\logging.properties
+11-Nov-2021 10:28:03.513 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Nov-2021 10:28:03.513 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+11-Nov-2021 10:28:03.513 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Nov-2021 10:28:03.514 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+11-Nov-2021 10:28:03.514 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:28:03.514 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=C:\Users\comna\Desktop\goudouken\keijiban
+11-Nov-2021 10:28:03.515 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=C:\Users\comna\Desktop\goudouken\keijiban\temp
+11-Nov-2021 10:28:03.515 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\platform-tools_r31.0.3-windows\platform-tools;C:\Users\comna\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.0\;C:\Users\comna\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\comna\AppData\Local\Programs\Python\Python39\;"C:\Users\comna\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-17\bin";C:\Users\comna\AppData\Local\atom\bin;C:\Users\comna\.dotnet\tools;C:\Users\comna\AppData\Roaming\npm;C:\Users\comna\AppData\Local\Programs\Microsoft VS Code\bin;C:\comsan_created\.ui;C:\Program Files\2019.4.21f1\Editor;C:\pleiades\xampp\mysql\bin;C:\Program Files\heroku\bin;.] に存在しません。
+11-Nov-2021 10:28:03.658 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8080"] を初期化します。
+11-Nov-2021 10:28:03.733 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["ajp-nio-8009"] を初期化します。
+11-Nov-2021 10:28:03.737 情報 [main] org.apache.catalina.startup.Catalina.load サーバーの初期化 [392]ms
+11-Nov-2021 10:28:03.762 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+11-Nov-2021 10:28:03.763 情報 [main] org.apache.catalina.core.StandardEngine.startInternal サーブレットエンジンの起動：[Apache Tomcat/9.0.30]
+11-Nov-2021 10:28:03.768 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\docs] を配備します
+11-Nov-2021 10:28:03.986 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\docs] の Web アプリケーションの配置は [217] ms で完了しました。
+11-Nov-2021 10:28:03.986 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\examples] を配備します
+11-Nov-2021 10:28:04.322 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\examples] の Web アプリケーションの配置は [336] ms で完了しました。
+11-Nov-2021 10:28:04.323 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\host-manager] を配備します
+11-Nov-2021 10:28:04.354 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\host-manager] の Web アプリケーションの配置は [30] ms で完了しました。
+11-Nov-2021 10:28:04.354 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\manager] を配備します
+11-Nov-2021 10:28:04.378 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\manager] の Web アプリケーションの配置は [23] ms で完了しました。
+11-Nov-2021 10:28:04.378 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\ROOT] を配備します
+11-Nov-2021 10:28:04.396 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\ROOT] の Web アプリケーションの配置は [18] ms で完了しました。
+11-Nov-2021 10:28:04.396 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\rs_page] を配備します
+11-Nov-2021 10:28:04.429 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [C:\Users\comna\Desktop\goudouken\keijiban\webapps\rs_page] の Web アプリケーションの配置は [33] ms で完了しました。
+11-Nov-2021 10:28:04.432 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8080"] を開始しました。
+11-Nov-2021 10:28:04.438 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["ajp-nio-8009"] を開始しました。
+11-Nov-2021 10:28:04.441 情報 [main] org.apache.catalina.startup.Catalina.start サーバーの起動 [704]ms

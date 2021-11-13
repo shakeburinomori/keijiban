@@ -15,4 +15,15 @@
     <url-pattern>/test</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>ConnectDB</servlet-name>
+    <servlet-class>ConnectDB</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ConnectDB</servlet-name>
+    <url-pattern>/connect</url-pattern>
+  </servlet-mapping>
+
+
 </web-app>
