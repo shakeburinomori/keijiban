@@ -17,7 +17,6 @@ if(cks != null){
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script>
         $(function(){
-
             $("#send").on("click",function(evnt){
                 alert($('#art_content').val());
                 $.ajax({

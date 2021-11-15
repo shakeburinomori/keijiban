@@ -29,10 +29,11 @@ public class ConnectDB extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        response.setCharacterEncoding("UTF-8");
         PrintWriter out = response.getWriter();
         String mode = request.getParameter("mode");// ex:memberRead
         String member_id = null, art_name = null, art_content = null;
-        String sqldata = null;
+        String sqldata = null, result_data = null;
 
         try {
             // context.xmlの情報を使ってデータベースに接続 ※rs_page/META-INF/context.xml
@@ -50,14 +51,12 @@ public class ConnectDB extends HttpServlet {
                 st = con.prepareStatement(sqldata);
                 rs = st.executeQuery();
                 while (rs.next()) {
-                    out.println(rs.getString("member_id"));
-                    out.println(rs.getString("name"));
-                    out.println(rs.getString("address"));
-                    out.println(rs.getString("mail_address"));
-                    out.println(rs.getString("birth"));
-                    out.println(rs.getString("chara_id"));
-                    out.println(rs.getString("project_id"));
-                    out.println(rs.getString("work_id"));
+                    result_data = String.format(
+                            "{\"member_id\":%s,\"name\":\"%s\",\"address\":\"%s\",\"mail_address\":\"%s\",\"birth\":\"%s\",\"chara_id\":%\"s\",\"project_id\":\"%s\",\"work_id\":\"%s\"}",
+                            rs.getString("member_id"), rs.getString("name"), rs.getString("address"),
+                            rs.getString("mail_address"), rs.getString("birth"), rs.getString("chara_id"),
+                            rs.getString("project_id"), rs.getString("work_id"));
+                    out.println(result_data);
                 }
                 break;
 
@@ -72,14 +71,12 @@ public class ConnectDB extends HttpServlet {
                 st = con.prepareStatement(sqldata);
                 rs = st.executeQuery();
                 while (rs.next()) {
-                    out.println(rs.getString("member_id"));
-                    out.println(rs.getString("name"));
-                    out.println(rs.getString("address"));
-                    out.println(rs.getString("mail_address"));
-                    out.println(rs.getString("birth"));
-                    out.println(rs.getString("chara_id"));
-                    out.println(rs.getString("project_id"));
-                    out.println(rs.getString("work_id"));
+                    result_data = String.format(
+                            "{\"member_id\":%s,\"name\":\"%s\",\"address\":\"%s\",\"mail_address\":\"%s\",\"birth\":\"%s\",\"chara_id\":%\"s\",\"project_id\":\"%s\",\"work_id\":\"%s\"}",
+                            rs.getString("member_id"), rs.getString("name"), rs.getString("address"),
+                            rs.getString("mail_address"), rs.getString("birth"), rs.getString("chara_id"),
+                            rs.getString("project_id"), rs.getString("work_id"));
+                    out.println(result_data);
                 }
                 break;
             case "memberDelete":
@@ -115,9 +112,9 @@ public class ConnectDB extends HttpServlet {
                 st = con.prepareStatement(sqldata);
                 rs = st.executeQuery();
                 while (rs.next()) {
-                    out.println(rs.getString("art_id"));
-                    out.println(rs.getString("art_name"));
-                    out.println(rs.getString("art_content"));
+                    result_data = String.format("{\"art_id\":%s,\"art_name\":\"%s\",\"art_content\":\"%s\"}",
+                            rs.getString("art_id"), rs.getString("art_name"), rs.getString("art_content"));
+                    out.println(result_data);
                 }
                 break;
 
@@ -127,15 +124,15 @@ public class ConnectDB extends HttpServlet {
                 st = con.prepareStatement(sqldata);
                 rs = st.executeQuery();
                 while (rs.next()) {
-                    out.println(rs.getString("art_id"));
-                    out.println(rs.getString("art_name"));
-                    out.println(rs.getString("art_content"));
+                    result_data = String.format("{\"art_id\":%s,\"art_name\":\"%s\",\"art_content\":\"%s\"}",
+                            rs.getString("art_id"), rs.getString("art_name"), rs.getString("art_content"));
+                    out.println(result_data + ";");
                 }
                 break;
 
             // artReadList,artUpdate,artDelete etc...
             default:
-                out.println("{'status_code':300}");
+                out.println("{\"status_code\":300}");
                 break;
             }
             st.close();
