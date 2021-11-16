@@ -17,7 +17,6 @@ if(cks != null){
     <script src="./js/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/rs_keijiban.css">
-    <link rel="stylesheet" href="./css/rs_keijiban_art_list.css">
     
     <script>
         var res_data,lines,jsondata;
@@ -34,7 +33,7 @@ if(cks != null){
                     // alert(data); レスポンスデータのデバッグ
 
                     lines = data.split(';');
-                    var art_count = 0;
+
                     //jsonデータの整形とhtmlタグの生成
                     for(var i in lines){
                         
@@ -44,15 +43,13 @@ if(cks != null){
                         }else{
                             continue;
                         }
+                        
                         var paragraph = $('<h2></h2>');
                         var contents = $('<p></p>');
-                        var art_cont = $('<div class="" id="art_'+art_count+'"></div>');
                         paragraph.html(jsondata.art_name);
                         contents.html(jsondata.art_content);
-                        $('#art_list').append(art_cont);
-                        $('#art_'+art_count).append(paragraph);
-                        $('#art_'+art_count).append(contents);
-                        art_count++;
+                        $('#art_list').append(paragraph);
+                        $('#art_list').append(contents);
                     }
 
                 });
@@ -64,11 +61,11 @@ if(cks != null){
 </head>
 <body>
     <header class="jumbotron" style="background: url('image/member/5/1.jpg');background-size: cover;"></header>
-    <!-- <div class="border row text-center ">
+    <div class="border row text-center ">
         <a href="" class="col-sm-4 head_list p-4"><div >投稿記事</div></a>
         <a href="" class="col-sm-4 head_list p-4"><div >制作物</div></a>
         <a href="" class="col-sm-4 head_list p-4"><div >マイページ</div></a>
-    </div> -->
+    </div>
     <div class="container">
         <div class="m-0 mt-4" style="text-align:right;">
             <button class="btn btn-outline-secondary pt-2 pb-2 menu-btn" type="button" >
@@ -87,9 +84,9 @@ if(cks != null){
 
     <main class="main">
         <div class="header">
-            <h2 class="header h1">記事一覧</h2>
+            <h2 class="header h1">投稿記事</h2>
         </div>
-        <div class="art_list" id="art_list"></div>
+        <div id="art_list"></div>
     </main>
 </body>
 </html>
