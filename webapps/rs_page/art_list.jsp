@@ -61,6 +61,11 @@ if(cks != null){
 </head>
 <body>
     <header class="jumbotron" style="background: url('image/member/5/1.jpg');background-size: cover;"></header>
+    <div class="border row text-center ">
+        <a href="" class="col-sm-4 head_list p-4"><div >投稿記事</div></a>
+        <a href="" class="col-sm-4 head_list p-4"><div >制作物</div></a>
+        <a href="" class="col-sm-4 head_list p-4"><div >マイページ</div></a>
+    </div>
     <div class="container">
         <div class="m-0 mt-4" style="text-align:right;">
             <button class="btn btn-outline-secondary pt-2 pb-2 menu-btn" type="button" >
@@ -76,14 +81,12 @@ if(cks != null){
               </div>
         </div>
     </div>
-    
+
     <main class="main">
         <div class="header">
             <h2 class="header h1">投稿記事</h2>
         </div>
         <div id="art_list"></div>
     </main>
-
-    
 </body>
 </html>

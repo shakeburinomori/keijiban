@@ -91,7 +91,7 @@ public class ConnectDB extends HttpServlet {
                 System.out.println("\n\n" + art_content + "\n\n");
                 System.out.println("\n\n" + member_id + "\n\n");
 
-                // member_idが整数化同か判定
+                // member_idが整数かどうか判定
                 for (int i = 0; i < member_id.length(); i++) {
                     if (!Character.isDigit(member_id.charAt(i))) {
                         out.println("No number");
